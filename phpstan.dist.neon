@@ -1,0 +1,10 @@
+parameters:
+  level: max
+  paths:
+    - '%currentWorkingDirectory%/src'
+  symfony:
+    container_xml_path: '%currentWorkingDirectory%/var/cache/dev/App_KernelDevDebugContainer.xml'
+  type_coverage:
+    param_type: 100
+    property_type: 100
+    return_type: 100
